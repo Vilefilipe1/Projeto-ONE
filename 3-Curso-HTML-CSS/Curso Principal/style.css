@@ -1,9 +1,15 @@
 body {
     background-color: #000000;
-    color: #ffffff;
+    color: #F6F6F6;
     font-family: Arial, Helvetica, sans-serif; 
 }
-strong {
+h1 strong {
     color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+p strong {
+    color: #269FCC;
+
 }
 
