@@ -1,0 +1,16 @@
+body {
+    background-color: indigo;
+}
+
+header {
+    background-color: blue;
+}
+main {
+    color:pink;
+    background-color:red;
+}
+footer {
+    color:yellowgreen;
+    background-color: green;
+}
+
