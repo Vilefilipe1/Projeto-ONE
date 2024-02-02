@@ -1,4 +1,6 @@
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     font-family: 'Inter', sans-serif;
 }

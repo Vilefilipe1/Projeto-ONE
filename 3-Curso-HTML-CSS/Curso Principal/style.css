@@ -3,9 +3,15 @@
     padding: 0px;
 }
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
     font-family: Arial, Helvetica, sans-serif; 
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
 h1 strong {
     color: #22D4FD;
