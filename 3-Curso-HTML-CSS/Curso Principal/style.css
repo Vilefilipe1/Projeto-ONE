@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&family=Roboto:wght@700&display=swap');
 
 * {
     margin: 0px;
@@ -7,18 +7,18 @@
 
 body {
     height: 100vh;
-    width: 100vw;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
 }
 
 .apresentacao {
-    display: flex;
     height: 100vh;
     width: 100vw;
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 4%;
 }
 
 .apresentacao__conteudo {
@@ -37,6 +37,31 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
+}
+
+.apresentacao__container__botao {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__link__botao {
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 21.5px 0;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    box-shadow: 8px -10px 2px teal;
+}
+
+.apresentacao__link__botao:hover {
+    background-color: #a6efff;
 }
 
 h1 strong {
